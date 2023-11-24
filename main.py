@@ -13,5 +13,8 @@ class Pomodoro_Timer:
     def __init__(self):
         self.ventana = Tk()
         self.ventana.mainloop()
-a
+
+
+
+
 Pomodoro_Timer()
