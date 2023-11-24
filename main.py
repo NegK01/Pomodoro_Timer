@@ -21,7 +21,6 @@ class Pomodoro_Timer:
 
 
 
+
         self.ventana.mainloop()
-
-
 Pomodoro_Timer()
