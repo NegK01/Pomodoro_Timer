@@ -1,7 +1,9 @@
 # from tkinter import *
 # (Importa casi todo el modulo de tkinter y nos ahorra poner "tkinter."Label)
-Import tkinter as tk # Tedioso poner "tk."Label, pero nos ayuda a no confundirnos
 
+
+Import tkinter as tk # Tedioso poner "tk."Label, pero nos ayuda a no confundirnos
+from tkinter import ttk # Ttk Nos permite utilizar widgets mas modernos
 from tkinter import PhotoImage # Importa imagenes
 from time import * # Importa todo aquello relacionado al tiempo
 from threading import * # Nos permite ejecutar hilos que realicen tareas simultaneamente
@@ -11,8 +13,17 @@ from threading import * # Nos permite ejecutar hilos que realicen tareas simulta
 class Pomodoro_Timer:
 
     def __init__(self):
-        self.ventana = Tk()
+        self.ventana = tk.Tk()
+
+
+
+
+
+
+
+
         self.ventana.mainloop()
+
 
 
 
