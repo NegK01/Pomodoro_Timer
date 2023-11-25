@@ -9,8 +9,8 @@ import threading
 
 
 # ↑ Nos permite ejecutar hilos que realicen tareas simultáneamente
-# Ojo, estos hilos son distintos, los usaremos para que no
-# se detenga el pomodoro cuando movamos la ventana o minimicemos
+# Ojo, estos hilos son distintos, los usaremos para que
+# no se detenga el pomodoro cuando movamos la ventana o minimicemos
 
 class Pomodoro_Timer:
 
@@ -142,5 +142,6 @@ class Pomodoro_Timer:
 
         self.stopped = True
         self.skipped = True
+
 
 Pomodoro_Timer()
