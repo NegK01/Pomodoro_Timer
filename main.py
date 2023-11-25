@@ -143,5 +143,4 @@ class Pomodoro_Timer:
         self.stopped = True
         self.skipped = True
 
-
 Pomodoro_Timer()
